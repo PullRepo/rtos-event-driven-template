@@ -7,4 +7,7 @@
 int system_init(void);
 int system_evt_handler(event_type_t event);
 
+// System API follows
+
+
 #endif // SYSTEM_H
