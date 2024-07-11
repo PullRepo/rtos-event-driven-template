@@ -25,7 +25,7 @@ The project has three application tasks/threads: sensor, system, and UI. The sen
 ## Master Event Queue
 The event queue is used to synchronize the tasks. The queue itself is a simple FIFO queue - often the RTOS provides and intrinsic message queue data structure for this purpose. Use it if provided, but it should be simple to roll your own. Each tasks is responsible for having an event handler function that the event queue can interact with as messages are received.
 
-All-caps definitions in the file should be replaces with the appropriate RTOS functions or structures.
+ALL-CAPS definitions in the file should be replaced with the appropriate RTOS functions or structures.
 
 ## License
 See [LICENSE](LICENSE) file for usage information.
